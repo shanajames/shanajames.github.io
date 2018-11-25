@@ -1,0 +1,494 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: none;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: none;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 20%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 80%;
+    background-color: none;
+    padding: 20px 10px ;
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: none;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card1,{
+    background-color:none;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background:none;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding:0px;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav .dropdown{
+        float: none;
+        width: 100%;
+    }
+}
+.jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+}
+form{
+    margin-left: 30%;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a {
+    color:none;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-nav li.active a{
+    color: black;
+    font-size: 20px;
+}
+.main-nav li.activa{
+    color: black;
+    font-size: 30px;
+    margin-right:200px;
+}
+.main-nav a:hover {
+    background-color:none;
+    color: black;
+}
+
+.dr{
+    float: right;
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: right;
+    width: 50%;
+    padding: 10px 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding:10px 10px;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: none;
+  }
+  .avatar {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right:5px;
+    padding-top:5px;
+}
+
+.avatar1 {
+
+    width: 50px;
+    height: 80px;
+    padding-right:5px;
+    padding-top:5px;
+}
+.avatar3 {
+
+    width: 80px;
+    height: 200px;
+    margin-bottom: 20%;
+}
+.avatarq {
+
+    width: 170px;
+    height: 250px;
+    padding-right:5px;
+    padding-top:5px;
+    position: relative;
+    top: -50px;
+    -webkit-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+    
+}
+.avatarq1 {
+
+    width: 170px;
+    height: 250px;
+    padding-right:5px;
+    padding-top:5px;
+    position: relative;
+    bottom: -40px;
+    -webkit-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
+.button2 {
+    background-color:white; 
+    color: black; 
+    border: 2px solid hotpink;
+    border-radius: 18px;
+    box-shadow: 5px 6px #888888;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+#rebook:hover {
+    color: #eee;
+  }
+
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    padding:1px;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:burlywood;
+}
+.right.img {
+    float: left;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+.main-nav{
+    float: right;
+}
+  
+
+.dropdown-content {
+    display:block;
+    position: absolute;
+    background-color:rosybrown;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.main-nav{
+    margin-right: 1%;
+    list-style: none;
+}
+.notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50px;
+  }
+  
+  .notification:hover {
+    background: red;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a {
+    color:grey;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-nav li.active a{
+    color: black;
+    font-size: 20px;
+}
+.main-nav li.activa{
+    color: black;
+    font-size: 30px;
+    margin-right:200px;
+}
+.main-nav a:hover {
+    background-color:none;
+    color: black;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+.navbar .right{
+    margin-right: 0%;
+    float: right;
+}
+ /* Make the image fully responsive */
+ .carousel-inner img {
+    width: 100%;
+    height: 150%;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar .right .search-container {
+      float: none;}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    margin-top:70px;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
+/* Column container */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+#rebook:hover {
+    color: #eee;
+  }
+
